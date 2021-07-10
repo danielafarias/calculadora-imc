@@ -39,7 +39,7 @@ export default function Calculator() {
     return (
         <div className={styles.calculator_area}>
             <Container maxWidth='xs'>
-                <Grid container direction='column' spacing={2}>
+                <Grid container direction='column' spacing={2} alignItems='center'>
 
                     <Grid item>
                         <TextField
@@ -84,6 +84,12 @@ export default function Calculator() {
                             )
                         }
                     </div>
+
+                    <Grid item xs={12} sm={6}>
+                        <a href="https://github.com/danielafarias" target='_blank' rel='noreffer'>
+                            <img className={styles.github} src='/images/github.png' alt='github logo'/>
+                        </a>
+                    </Grid>
 
                 </Grid>
             </Container>
