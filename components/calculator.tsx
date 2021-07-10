@@ -86,7 +86,7 @@ export default function Calculator() {
                     </div>
 
                     <Grid item xs={12} sm={6}>
-                        <a href="https://github.com/danielafarias" target='_blank' rel='noreffer'>
+                        <a href="https://github.com/danielafarias" target='_blank' rel='noreferrer'>
                             <img className={styles.github} src='/images/github.png' alt='github logo'/>
                         </a>
                     </Grid>
